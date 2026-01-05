@@ -2,96 +2,166 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="BitesUAE Dashboard", layout="wide")
 
 # ------------------------------
-# 1. Load Data
+# Load Data (FIXED PATHS)
 # ------------------------------
 @st.cache_data
 def load_data():
-    customers = pd.read_csv("customers.csv")
+    customers = pd.read_csv("customers.csv", parse_dates=["signup_date"])
     restaurants = pd.read_csv("restaurants.csv")
-    orders = pd.read_csv("orders.csv")
+    orders = pd.read_csv("orders.csv", parse_dates=["order_datetime"])
     order_items = pd.read_csv("order_items.csv")
-    delivery_events = pd.read_csv("delivery_events.csv")
+    delivery_events = pd.read_csv(
+        "delivery_events.csv",
+        parse_dates=[
+            "order_placed_time",
+            "restaurant_confirmed_time",
+            "food_ready_time",
+            "rider_picked_up_time",
+            "delivered_time",
+            "estimated_delivery_time"
+        ]
+    )
     riders = pd.read_csv("riders.csv")
+
     return customers, restaurants, orders, order_items, delivery_events, riders
+
 
 customers, restaurants, orders, order_items, delivery_events, riders = load_data()
 
 # ------------------------------
-# 2. Sidebar Filters
+# JOIN TABLES (CRITICAL)
+# ------------------------------
+orders = orders.merge(customers, on="customer_id", how="left")
+orders = orders.merge(restaurants, on="restaurant_id", how="left")
+orders = orders.merge(delivery_events, on="order_id", how="left")
+
+# ------------------------------
+# SIDEBAR FILTERS
 # ------------------------------
 st.sidebar.header("Filters")
-date_range = st.sidebar.date_input("Select Date Range", [])
-city_filter = st.sidebar.multiselect("Select City", options=customers['city'].unique())
-zone_filter = st.sidebar.multiselect("Select Zone", options=restaurants['zone'].unique())
-cuisine_filter = st.sidebar.multiselect("Select Cuisine", options=restaurants['cuisine_type'].unique())
-restaurant_tier_filter = st.sidebar.multiselect("Select Restaurant Tier", options=restaurants['restaurant_tier'].unique())
-time_filter = st.sidebar.selectbox("Time of Day", options=["All", "Lunch (12–2 PM)", "Peak (7–10 PM)", "Off-Peak"])
 
-view_toggle = st.sidebar.radio("Select View", options=["Executive View", "Manager View"])
+date_range = st.sidebar.date_input(
+    "Order Date Range",
+    [orders["order_datetime"].min().date(), orders["order_datetime"].max().date()]
+)
+
+city_filter = st.sidebar.multiselect("City", orders["city"].dropna().unique())
+zone_filter = st.sidebar.multiselect("Zone", orders["zone"].dropna().unique())
+cuisine_filter = st.sidebar.multiselect("Cuisine", orders["cuisine_type"].dropna().unique())
+tier_filter = st.sidebar.multiselect("Restaurant Tier", orders["restaurant_tier"].dropna().unique())
+
+view_toggle = st.sidebar.radio("View", ["Executive View", "Manager View"])
 
 # ------------------------------
-# 3. Filter Data
+# APPLY FILTERS
 # ------------------------------
-# Example: Filter by city
+df = orders.copy()
+
+df = df[
+    (df["order_datetime"].dt.date >= date_range[0]) &
+    (df["order_datetime"].dt.date <= date_range[1])
+]
+
 if city_filter:
-    orders = orders[orders['city'].isin(city_filter)]
+    df = df[df["city"].isin(city_filter)]
+if zone_filter:
+    df = df[df["zone"].isin(zone_filter)]
+if cuisine_filter:
+    df = df[df["cuisine_type"].isin(cuisine_filter)]
+if tier_filter:
+    df = df[df["restaurant_tier"].isin(tier_filter)]
 
-# ------------------------------
-# 4. Executive View
-# ------------------------------
+delivered = df[df["order_status"] == "Delivered"]
+
+# ==============================
+# EXECUTIVE VIEW
+# ==============================
 if view_toggle == "Executive View":
-    st.title("Executive Dashboard")
-    
-    # Example KPI: GMV
-    gmv = orders[orders['order_status']=="Delivered"]["gross_amount"].sum()
-    st.metric(label="GMV (AED)", value=f"{gmv:,.2f}")
-    
-    # Example Chart: GMV by Zone
-    gmv_by_zone = orders.groupby('zone')['gross_amount'].sum().sort_values(ascending=False)
-    fig_zone = px.bar(gmv_by_zone, x=gmv_by_zone.index, y=gmv_by_zone.values, labels={'x':'Zone', 'y':'GMV'})
-    st.plotly_chart(fig_zone, use_container_width=True)
-    
-    # Example Donut Chart: GMV by Cuisine
-    gmv_by_cuisine = orders.groupby('cuisine_type')['gross_amount'].sum()
-    fig_cuisine = px.pie(values=gmv_by_cuisine.values, names=gmv_by_cuisine.index, hole=0.4)
-    st.plotly_chart(fig_cuisine, use_container_width=True)
-    
-# ------------------------------
-# 5. Manager View
-# ------------------------------
+    st.title("📊 Executive Dashboard")
+
+    gmv = delivered["gross_amount"].sum()
+    aov = delivered["gross_amount"].mean()
+    discount_burn = (
+        delivered["discount_amount"].sum() /
+        delivered["gross_amount"].sum()
+    ) * 100
+
+    repeat_rate = (
+        delivered.groupby("customer_id")
+        .size()
+        .gt(1)
+        .mean() * 100
+    )
+
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("GMV (AED)", f"{gmv:,.0f}")
+    c2.metric("AOV (AED)", f"{aov:,.0f}")
+    c3.metric("Repeat Rate (%)", f"{repeat_rate:.1f}")
+    c4.metric("Discount Burn (%)", f"{discount_burn:.1f}")
+
+    gmv_zone = delivered.groupby("zone")["gross_amount"].sum().sort_values()
+    st.plotly_chart(
+        px.bar(gmv_zone, orientation="h", title="GMV by Zone"),
+        use_container_width=True
+    )
+
+    cuisine_mix = delivered.groupby("cuisine_type")["gross_amount"].sum()
+    st.plotly_chart(
+        px.pie(values=cuisine_mix.values, names=cuisine_mix.index, hole=0.4,
+               title="GMV by Cuisine"),
+        use_container_width=True
+    )
+
+# ==============================
+# MANAGER VIEW
+# ==============================
 else:
-    st.title("Manager Dashboard")
-    
-    # Example KPI: On-Time Delivery Rate
-    on_time = delivery_events[delivery_events['actual_delivery_time_mins'] <= delivery_events['estimated_delivery_time']]
-    on_time_rate = len(on_time) / len(delivery_events) * 100
-    st.metric(label="On-Time Delivery Rate (%)", value=f"{on_time_rate:.2f}%")
-    
-    # Example: Average Delivery Time
-    avg_delivery = delivery_events['actual_delivery_time_mins'].mean()
-    st.metric(label="Average Delivery Time (mins)", value=f"{avg_delivery:.1f}")
-    
-    # Example chart: Delay Breakdown by Zone
-    delay_data = delivery_events.copy()
-    delay_data['delay_type'] = np.where(delay_data['actual_delivery_time_mins'] > delay_data['estimated_delivery_time'], "Late", "On Time")
-    delay_zone = delay_data.groupby(['zone', 'delay_type']).size().reset_index(name='count')
-    fig_delay = px.bar(delay_zone, x='zone', y='count', color='delay_type', title="Delay Breakdown by Zone")
-    st.plotly_chart(fig_delay, use_container_width=True)
+    st.title("🚴 Manager Dashboard")
 
-# ------------------------------
-# 6. Add What-If Analysis (Manager)
-# ------------------------------
-if view_toggle == "Manager View":
-    st.subheader("What-If Analysis")
-    prep_reduction = st.slider("Reduce Avg Prep Time by (mins)", 1, 15, 5)
-    cancellation_reduction = st.slider("Reduce Cancellation Rate by (%)", 5, 30, 10)
-    
-    st.write(f"Projected improvement in on-time rate: +{prep_reduction * 0.5:.1f}%")  # dummy calc
-    st.write(f"Projected GMV recovery from reduced cancellations: AED {gmv * cancellation_reduction/100:,.0f}")
+    delivered_events = df.dropna(subset=["delivered_time"])
 
+    on_time_rate = (
+        (delivered_events["delivered_time"]
+         <= delivered_events["estimated_delivery_time"])
+        .mean() * 100
+    )
+
+    avg_delivery = delivered_events["actual_delivery_time_mins"].mean()
+    cancellation_rate = (df["order_status"] == "Cancelled").mean() * 100
+
+    c1, c2, c3 = st.columns(3)
+    c1.metric("On-Time Rate (%)", f"{on_time_rate:.1f}")
+    c2.metric("Avg Delivery Time (mins)", f"{avg_delivery:.1f}")
+    c3.metric("Cancellation Rate (%)", f"{cancellation_rate:.1f}")
+
+    delay_df = delivered_events.copy()
+    delay_df["status"] = np.where(
+        delay_df["delivered_time"] > delay_df["estimated_delivery_time"],
+        "Late", "On Time"
+    )
+
+    delay_zone = delay_df.groupby(["zone", "status"]).size().reset_index(name="count")
+
+    st.plotly_chart(
+        px.bar(delay_zone, x="zone", y="count", color="status",
+               title="Delivery Performance by Zone"),
+        use_container_width=True
+    )
+
+    # ------------------------------
+    # WHAT-IF ANALYSIS
+    # ------------------------------
+    st.subheader("🔮 What-If Analysis")
+
+    prep_reduction = st.slider("Reduce Avg Prep Time (mins)", 1, 15, 5)
+    cancel_reduction = st.slider("Reduce Cancellation Rate (%)", 5, 30, 10)
+
+    projected_on_time = min(on_time_rate + prep_reduction * 0.5, 100)
+    recovered_gmv = gmv * cancel_reduction / 100
+
+    st.write(f"**Projected On-Time Rate:** {projected_on_time:.1f}%")
+    st.write(f"**Projected GMV Recovery:** AED {recovered_gmv:,.0f}")
