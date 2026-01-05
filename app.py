@@ -30,6 +30,7 @@ def load_data():
     return customers, restaurants, orders, order_items, delivery_events, riders
 
 
+
 customers, restaurants, orders, order_items, delivery_events, riders = load_data()
 
 # ------------------------------
@@ -165,3 +166,4 @@ else:
 
     st.write(f"**Projected On-Time Rate:** {projected_on_time:.1f}%")
     st.write(f"**Projected GMV Recovery:** AED {recovered_gmv:,.0f}")
+
