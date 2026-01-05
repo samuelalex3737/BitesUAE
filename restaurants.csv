@@ -1,0 +1,501 @@
+restaurant_id,restaurant_name,city,zone,cuisine_type,restaurant_tier,avg_prep_time_mins,rating
+REST_0001,Restaurant 1,Sharjah,Zone A,Indian,QSR,44,4.8
+REST_0002,Restaurant 2,Ajman,Zone A,Indian,Casual Dining,56,3.7
+REST_0003,Restaurant 3,Abu Dhabi,Zone C,Asian,Casual Dining,36,3.3
+REST_0004,Restaurant 4,Abu Dhabi,Zone F,Indian,QSR,38,4.5
+REST_0005,Restaurant 5,Ajman,Zone A,Asian,QSR,14,4.5
+REST_0006,Restaurant 6,Abu Dhabi,Zone D,Western,Premium,10,5.0
+REST_0007,Restaurant 7,Abu Dhabi,Zone C,Emirati,QSR,52,3.3
+REST_0008,Restaurant 8,Dubai,Zone B,Western,QSR,14,4.4
+REST_0009,Restaurant 9,Abu Dhabi,Zone B,Indian,Casual Dining,38,3.8
+REST_0010,Restaurant 10,Sharjah,Zone B,Indian,Casual Dining,26,4.8
+REST_0011,Restaurant 11,Sharjah,Zone A,Asian,QSR,58,3.8
+REST_0012,Restaurant 12,Dubai,Zone C,Indian,Premium,46,3.9
+REST_0013,Restaurant 13,Dubai,Zone B,Indian,Casual Dining,33,3.3
+REST_0014,Restaurant 14,Abu Dhabi,Zone C,Asian,QSR,36,3.6
+REST_0015,Restaurant 15,Dubai,Zone A,Asian,Casual Dining,18,3.8
+REST_0016,Restaurant 16,Dubai,Zone D,Emirati,Casual Dining,47,3.0
+REST_0017,Restaurant 17,Ajman,Zone D,Asian,QSR,22,3.9
+REST_0018,Restaurant 18,Dubai,Zone D,Healthy,Casual Dining,35,3.7
+REST_0019,Restaurant 19,Sharjah,Zone A,Emirati,Casual Dining,20,4.6
+REST_0020,Restaurant 20,Abu Dhabi,Zone B,Indian,Casual Dining,33,3.2
+REST_0021,Restaurant 21,Dubai,Zone A,Asian,Casual Dining,42,4.5
+REST_0022,Restaurant 22,Ajman,Zone C,Western,Casual Dining,58,4.4
+REST_0023,Restaurant 23,Abu Dhabi,Zone D,Western,QSR,15,3.5
+REST_0024,Restaurant 24,Abu Dhabi,Zone C,Asian,Casual Dining,44,3.2
+REST_0025,Restaurant 25,Abu Dhabi,Zone A,Asian,Casual Dining,25,4.7
+REST_0026,Restaurant 26,Ajman,Zone E,Asian,Premium,22,3.5
+REST_0027,Restaurant 27,Sharjah,Zone E,Indian,Casual Dining,53,3.3
+REST_0028,Restaurant 28,Ajman,Zone A,Healthy,Casual Dining,20,3.7
+REST_0029,Restaurant 29,Ajman,Zone B,Asian,Fine Dining,32,3.8
+REST_0030,Restaurant 30,Abu Dhabi,Zone F,Indian,QSR,11,3.7
+REST_0031,Restaurant 31,Ajman,Zone C,Indian,QSR,39,5.0
+REST_0032,Restaurant 32,Abu Dhabi,Zone A,Emirati,QSR,28,4.8
+REST_0033,Restaurant 33,Dubai,Zone A,Western,QSR,49,4.7
+REST_0034,Restaurant 34,Dubai,Zone E,Emirati,Casual Dining,54,3.8
+REST_0035,Restaurant 35,Ajman,Zone D,Emirati,QSR,55,4.9
+REST_0036,Restaurant 36,Sharjah,Zone D,Emirati,QSR,56,4.4
+REST_0037,Restaurant 37,Abu Dhabi,Zone F,Western,QSR,58,4.7
+REST_0038,Restaurant 38,Ajman,Zone B,Indian,Casual Dining,24,4.0
+REST_0039,Restaurant 39,Ajman,Zone B,Indian,Premium,51,3.3
+REST_0040,Restaurant 40,Sharjah,Zone F,Western,Premium,42,4.8
+REST_0041,Restaurant 41,Abu Dhabi,Zone B,Asian,QSR,53,4.0
+REST_0042,Restaurant 42,Ajman,Zone E,Western,Casual Dining,50,4.9
+REST_0043,Restaurant 43,Sharjah,Zone A,Asian,QSR,14,3.5
+REST_0044,Restaurant 44,Abu Dhabi,Zone B,Western,QSR,31,5.0
+REST_0045,Restaurant 45,Dubai,Zone E,Indian,Premium,36,3.4
+REST_0046,Restaurant 46,Sharjah,Zone C,Indian,Casual Dining,56,3.7
+REST_0047,Restaurant 47,Ajman,Zone A,Western,QSR,44,4.2
+REST_0048,Restaurant 48,Dubai,Zone F,Indian,Casual Dining,28,4.4
+REST_0049,Restaurant 49,Abu Dhabi,Zone C,Western,QSR,48,4.4
+REST_0050,Restaurant 50,Sharjah,Zone D,Asian,QSR,16,4.0
+REST_0051,Restaurant 51,Dubai,Zone D,Healthy,Casual Dining,48,3.2
+REST_0052,Restaurant 52,Dubai,Zone A,Emirati,QSR,43,4.0
+REST_0053,Restaurant 53,Ajman,Zone B,Asian,Premium,43,3.7
+REST_0054,Restaurant 54,Dubai,Zone A,Western,Casual Dining,36,4.3
+REST_0055,Restaurant 55,Ajman,Zone B,Indian,Premium,53,3.4
+REST_0056,Restaurant 56,Abu Dhabi,Zone F,Asian,Premium,14,3.8
+REST_0057,Restaurant 57,Ajman,Zone D,Western,Casual Dining,13,4.9
+REST_0058,Restaurant 58,Sharjah,Zone A,Western,Casual Dining,16,3.2
+REST_0059,Restaurant 59,Dubai,Zone A,Asian,QSR,57,4.2
+REST_0060,Restaurant 60,Abu Dhabi,Zone F,Indian,Casual Dining,12,3.2
+REST_0061,Restaurant 61,Ajman,Zone B,Emirati,QSR,30,3.3
+REST_0062,Restaurant 62,Ajman,Zone D,Indian,QSR,43,4.2
+REST_0063,Restaurant 63,Ajman,Zone D,Emirati,Casual Dining,58,3.9
+REST_0064,Restaurant 64,Abu Dhabi,Zone B,Western,Casual Dining,18,4.1
+REST_0065,Restaurant 65,Abu Dhabi,Zone F,Asian,Fine Dining,29,4.8
+REST_0066,Restaurant 66,Sharjah,Zone B,Indian,QSR,49,4.6
+REST_0067,Restaurant 67,Abu Dhabi,Zone F,Indian,Casual Dining,21,4.8
+REST_0068,Restaurant 68,Ajman,Zone B,Emirati,Premium,48,4.2
+REST_0069,Restaurant 69,Abu Dhabi,Zone D,Emirati,QSR,55,4.0
+REST_0070,Restaurant 70,Ajman,Zone D,Western,QSR,37,3.9
+REST_0071,Restaurant 71,Sharjah,Zone A,Asian,QSR,57,4.5
+REST_0072,Restaurant 72,Sharjah,Zone F,Western,Premium,42,4.0
+REST_0073,Restaurant 73,Ajman,Zone D,Asian,QSR,19,3.2
+REST_0074,Restaurant 74,Abu Dhabi,Zone F,Western,QSR,20,3.3
+REST_0075,Restaurant 75,Abu Dhabi,Zone F,Asian,Casual Dining,16,3.7
+REST_0076,Restaurant 76,Dubai,Zone C,Emirati,Premium,27,3.1
+REST_0077,Restaurant 77,Sharjah,Zone C,Western,Premium,28,3.5
+REST_0078,Restaurant 78,Sharjah,Zone B,Asian,Casual Dining,23,4.3
+REST_0079,Restaurant 79,Ajman,Zone F,Emirati,Premium,26,3.0
+REST_0080,Restaurant 80,Dubai,Zone B,Asian,QSR,32,4.2
+REST_0081,Restaurant 81,Abu Dhabi,Zone B,Indian,QSR,28,4.5
+REST_0082,Restaurant 82,Ajman,Zone A,Indian,Premium,54,3.3
+REST_0083,Restaurant 83,Abu Dhabi,Zone C,Western,Casual Dining,12,3.4
+REST_0084,Restaurant 84,Abu Dhabi,Zone C,Emirati,QSR,43,3.1
+REST_0085,Restaurant 85,Abu Dhabi,Zone D,Emirati,Casual Dining,34,4.0
+REST_0086,Restaurant 86,Dubai,Zone C,Western,Premium,50,4.3
+REST_0087,Restaurant 87,Sharjah,Zone D,Indian,Premium,40,3.9
+REST_0088,Restaurant 88,Sharjah,Zone F,Indian,Premium,48,3.8
+REST_0089,Restaurant 89,Abu Dhabi,Zone A,Asian,Casual Dining,23,3.9
+REST_0090,Restaurant 90,Dubai,Zone B,Emirati,Premium,46,4.6
+REST_0091,Restaurant 91,Abu Dhabi,Zone B,Healthy,Casual Dining,56,3.1
+REST_0092,Restaurant 92,Abu Dhabi,Zone F,Indian,Casual Dining,29,4.6
+REST_0093,Restaurant 93,Ajman,Zone D,Emirati,Premium,41,4.3
+REST_0094,Restaurant 94,Dubai,Zone E,Western,Casual Dining,42,3.5
+REST_0095,Restaurant 95,Dubai,Zone F,Indian,QSR,40,4.0
+REST_0096,Restaurant 96,Sharjah,Zone D,Asian,QSR,16,3.1
+REST_0097,Restaurant 97,Sharjah,Zone F,Emirati,Casual Dining,14,3.8
+REST_0098,Restaurant 98,Abu Dhabi,Zone A,Indian,QSR,13,3.3
+REST_0099,Restaurant 99,Ajman,Zone F,Emirati,QSR,20,3.0
+REST_0100,Restaurant 100,Ajman,Zone F,Indian,QSR,28,3.7
+REST_0101,Restaurant 101,Ajman,Zone C,Indian,QSR,47,4.5
+REST_0102,Restaurant 102,Abu Dhabi,Zone D,Indian,Casual Dining,29,4.8
+REST_0103,Restaurant 103,Sharjah,Zone A,Emirati,QSR,36,4.3
+REST_0104,Restaurant 104,Dubai,Zone B,Asian,QSR,38,3.8
+REST_0105,Restaurant 105,Abu Dhabi,Zone E,Emirati,Casual Dining,27,5.0
+REST_0106,Restaurant 106,Ajman,Zone E,Asian,Premium,46,3.6
+REST_0107,Restaurant 107,Ajman,Zone D,Asian,QSR,56,3.4
+REST_0108,Restaurant 108,Abu Dhabi,Zone F,Emirati,QSR,34,3.9
+REST_0109,Restaurant 109,Ajman,Zone C,Asian,Premium,29,4.0
+REST_0110,Restaurant 110,Dubai,Zone F,Emirati,QSR,15,3.7
+REST_0111,Restaurant 111,Abu Dhabi,Zone D,Indian,Premium,45,4.4
+REST_0112,Restaurant 112,Dubai,Zone E,Western,QSR,58,3.4
+REST_0113,Restaurant 113,Sharjah,Zone E,Western,QSR,24,4.0
+REST_0114,Restaurant 114,Ajman,Zone F,Emirati,QSR,27,4.0
+REST_0115,Restaurant 115,Ajman,Zone F,Indian,QSR,47,4.6
+REST_0116,Restaurant 116,Sharjah,Zone F,Western,Premium,34,4.9
+REST_0117,Restaurant 117,Sharjah,Zone B,Asian,Fine Dining,29,4.3
+REST_0118,Restaurant 118,Sharjah,Zone C,Asian,Fine Dining,31,3.6
+REST_0119,Restaurant 119,Ajman,Zone C,Indian,Premium,21,4.4
+REST_0120,Restaurant 120,Sharjah,Zone E,Indian,Premium,50,3.5
+REST_0121,Restaurant 121,Abu Dhabi,Zone E,Emirati,Casual Dining,49,4.9
+REST_0122,Restaurant 122,Sharjah,Zone D,Western,Premium,56,4.6
+REST_0123,Restaurant 123,Abu Dhabi,Zone D,Asian,QSR,42,3.9
+REST_0124,Restaurant 124,Abu Dhabi,Zone B,Emirati,QSR,38,4.6
+REST_0125,Restaurant 125,Dubai,Zone E,Indian,Casual Dining,11,3.8
+REST_0126,Restaurant 126,Abu Dhabi,Zone D,Western,Premium,35,3.1
+REST_0127,Restaurant 127,Abu Dhabi,Zone B,Emirati,Casual Dining,41,4.4
+REST_0128,Restaurant 128,Sharjah,Zone C,Emirati,Premium,12,3.8
+REST_0129,Restaurant 129,Ajman,Zone E,Asian,Casual Dining,39,4.9
+REST_0130,Restaurant 130,Sharjah,Zone A,Western,Casual Dining,28,3.6
+REST_0131,Restaurant 131,Dubai,Zone E,Asian,Fine Dining,19,4.7
+REST_0132,Restaurant 132,Dubai,Zone D,Emirati,QSR,34,4.4
+REST_0133,Restaurant 133,Ajman,Zone E,Asian,Premium,55,4.7
+REST_0134,Restaurant 134,Abu Dhabi,Zone A,Emirati,Casual Dining,28,3.6
+REST_0135,Restaurant 135,Dubai,Zone E,Indian,Casual Dining,52,3.9
+REST_0136,Restaurant 136,Ajman,Zone D,Western,Premium,30,4.6
+REST_0137,Restaurant 137,Sharjah,Zone C,Western,Casual Dining,15,4.3
+REST_0138,Restaurant 138,Sharjah,Zone D,Western,Casual Dining,23,3.7
+REST_0139,Restaurant 139,Sharjah,Zone B,Western,Casual Dining,17,4.0
+REST_0140,Restaurant 140,Abu Dhabi,Zone D,Healthy,QSR,11,5.0
+REST_0141,Restaurant 141,Abu Dhabi,Zone B,Emirati,Casual Dining,27,4.5
+REST_0142,Restaurant 142,Ajman,Zone E,Indian,QSR,31,4.2
+REST_0143,Restaurant 143,Dubai,Zone B,Emirati,Premium,39,4.7
+REST_0144,Restaurant 144,Sharjah,Zone F,Indian,QSR,45,3.9
+REST_0145,Restaurant 145,Abu Dhabi,Zone E,Western,Casual Dining,37,4.9
+REST_0146,Restaurant 146,Abu Dhabi,Zone B,Emirati,Premium,44,4.1
+REST_0147,Restaurant 147,Dubai,Zone D,Indian,Premium,11,3.7
+REST_0148,Restaurant 148,Sharjah,Zone A,Emirati,Casual Dining,45,3.2
+REST_0149,Restaurant 149,Sharjah,Zone E,Emirati,Casual Dining,27,3.8
+REST_0150,Restaurant 150,Dubai,Zone B,Asian,QSR,52,4.1
+REST_0151,Restaurant 151,Ajman,Zone A,Asian,QSR,18,4.4
+REST_0152,Restaurant 152,Ajman,Zone B,Asian,QSR,37,4.8
+REST_0153,Restaurant 153,Dubai,Zone B,Healthy,Premium,17,4.9
+REST_0154,Restaurant 154,Dubai,Zone B,Indian,QSR,17,3.2
+REST_0155,Restaurant 155,Ajman,Zone D,Western,Casual Dining,14,4.2
+REST_0156,Restaurant 156,Dubai,Zone B,Indian,QSR,22,4.3
+REST_0157,Restaurant 157,Sharjah,Zone A,Indian,Casual Dining,16,3.3
+REST_0158,Restaurant 158,Ajman,Zone F,Emirati,Casual Dining,30,4.1
+REST_0159,Restaurant 159,Ajman,Zone B,Asian,Premium,38,3.7
+REST_0160,Restaurant 160,Ajman,Zone F,Healthy,QSR,46,3.2
+REST_0161,Restaurant 161,Sharjah,Zone C,Asian,QSR,54,3.1
+REST_0162,Restaurant 162,Dubai,Zone E,Asian,QSR,57,4.5
+REST_0163,Restaurant 163,Abu Dhabi,Zone D,Indian,QSR,23,4.2
+REST_0164,Restaurant 164,Abu Dhabi,Zone C,Healthy,Casual Dining,46,4.4
+REST_0165,Restaurant 165,Sharjah,Zone C,Indian,QSR,13,4.4
+REST_0166,Restaurant 166,Sharjah,Zone A,Asian,QSR,31,3.3
+REST_0167,Restaurant 167,Dubai,Zone A,Asian,Premium,20,3.3
+REST_0168,Restaurant 168,Abu Dhabi,Zone F,Asian,Casual Dining,43,3.5
+REST_0169,Restaurant 169,Ajman,Zone F,Western,QSR,54,3.8
+REST_0170,Restaurant 170,Sharjah,Zone D,Western,QSR,25,4.9
+REST_0171,Restaurant 171,Abu Dhabi,Zone D,Indian,QSR,18,4.3
+REST_0172,Restaurant 172,Ajman,Zone E,Asian,Casual Dining,25,3.5
+REST_0173,Restaurant 173,Ajman,Zone B,Emirati,Casual Dining,48,3.1
+REST_0174,Restaurant 174,Dubai,Zone D,Asian,Casual Dining,25,4.4
+REST_0175,Restaurant 175,Sharjah,Zone D,Indian,QSR,40,4.3
+REST_0176,Restaurant 176,Ajman,Zone F,Asian,Casual Dining,40,4.4
+REST_0177,Restaurant 177,Sharjah,Zone B,Indian,Casual Dining,22,3.5
+REST_0178,Restaurant 178,Abu Dhabi,Zone E,Indian,Casual Dining,14,4.0
+REST_0179,Restaurant 179,Abu Dhabi,Zone A,Asian,Premium,56,3.7
+REST_0180,Restaurant 180,Sharjah,Zone E,Asian,QSR,48,4.6
+REST_0181,Restaurant 181,Ajman,Zone B,Indian,QSR,27,3.1
+REST_0182,Restaurant 182,Ajman,Zone A,Western,Premium,29,3.6
+REST_0183,Restaurant 183,Abu Dhabi,Zone A,Healthy,QSR,11,4.2
+REST_0184,Restaurant 184,Ajman,Zone A,Healthy,QSR,49,3.4
+REST_0185,Restaurant 185,Ajman,Zone E,Emirati,Casual Dining,39,4.3
+REST_0186,Restaurant 186,Abu Dhabi,Zone F,Indian,Casual Dining,19,3.3
+REST_0187,Restaurant 187,Dubai,Zone B,Indian,Premium,51,3.0
+REST_0188,Restaurant 188,Abu Dhabi,Zone E,Emirati,QSR,20,4.7
+REST_0189,Restaurant 189,Sharjah,Zone E,Indian,QSR,38,3.7
+REST_0190,Restaurant 190,Dubai,Zone C,Indian,QSR,49,3.3
+REST_0191,Restaurant 191,Sharjah,Zone D,Asian,Casual Dining,25,3.3
+REST_0192,Restaurant 192,Dubai,Zone E,Indian,QSR,57,4.8
+REST_0193,Restaurant 193,Dubai,Zone C,Emirati,Casual Dining,37,4.3
+REST_0194,Restaurant 194,Abu Dhabi,Zone F,Emirati,QSR,26,4.9
+REST_0195,Restaurant 195,Abu Dhabi,Zone F,Emirati,QSR,47,4.6
+REST_0196,Restaurant 196,Sharjah,Zone B,Emirati,Casual Dining,59,4.5
+REST_0197,Restaurant 197,Abu Dhabi,Zone C,Indian,Fine Dining,58,4.0
+REST_0198,Restaurant 198,Dubai,Zone E,Western,Premium,53,4.6
+REST_0199,Restaurant 199,Abu Dhabi,Zone B,Asian,Fine Dining,24,3.8
+REST_0200,Restaurant 200,Sharjah,Zone C,Western,Casual Dining,40,4.7
+REST_0201,Restaurant 201,Dubai,Zone E,Indian,QSR,16,4.5
+REST_0202,Restaurant 202,Sharjah,Zone B,Western,QSR,55,4.4
+REST_0203,Restaurant 203,Ajman,Zone B,Healthy,Casual Dining,39,3.7
+REST_0204,Restaurant 204,Abu Dhabi,Zone D,Indian,QSR,45,4.3
+REST_0205,Restaurant 205,Dubai,Zone F,Indian,QSR,58,4.0
+REST_0206,Restaurant 206,Sharjah,Zone E,Indian,QSR,35,3.9
+REST_0207,Restaurant 207,Abu Dhabi,Zone D,Asian,Casual Dining,20,5.0
+REST_0208,Restaurant 208,Abu Dhabi,Zone B,Indian,QSR,15,4.0
+REST_0209,Restaurant 209,Sharjah,Zone B,Emirati,QSR,51,3.1
+REST_0210,Restaurant 210,Dubai,Zone C,Asian,Casual Dining,38,4.3
+REST_0211,Restaurant 211,Sharjah,Zone D,Asian,QSR,37,4.5
+REST_0212,Restaurant 212,Abu Dhabi,Zone A,Western,Casual Dining,24,4.8
+REST_0213,Restaurant 213,Sharjah,Zone E,Asian,Casual Dining,38,4.3
+REST_0214,Restaurant 214,Ajman,Zone F,Asian,QSR,15,3.0
+REST_0215,Restaurant 215,Abu Dhabi,Zone D,Emirati,Premium,57,3.2
+REST_0216,Restaurant 216,Dubai,Zone B,Emirati,QSR,21,3.3
+REST_0217,Restaurant 217,Ajman,Zone C,Indian,Casual Dining,25,3.4
+REST_0218,Restaurant 218,Sharjah,Zone E,Indian,Casual Dining,55,4.6
+REST_0219,Restaurant 219,Dubai,Zone F,Indian,Fine Dining,47,3.6
+REST_0220,Restaurant 220,Ajman,Zone E,Asian,Casual Dining,18,3.6
+REST_0221,Restaurant 221,Sharjah,Zone C,Indian,QSR,31,4.5
+REST_0222,Restaurant 222,Ajman,Zone B,Western,Casual Dining,42,3.8
+REST_0223,Restaurant 223,Abu Dhabi,Zone F,Emirati,QSR,35,3.1
+REST_0224,Restaurant 224,Dubai,Zone A,Indian,Casual Dining,49,4.2
+REST_0225,Restaurant 225,Ajman,Zone C,Western,QSR,16,3.3
+REST_0226,Restaurant 226,Abu Dhabi,Zone A,Asian,Casual Dining,55,4.1
+REST_0227,Restaurant 227,Sharjah,Zone D,Asian,QSR,41,4.6
+REST_0228,Restaurant 228,Abu Dhabi,Zone E,Western,Casual Dining,49,4.9
+REST_0229,Restaurant 229,Sharjah,Zone F,Emirati,Casual Dining,52,3.1
+REST_0230,Restaurant 230,Dubai,Zone B,Indian,QSR,33,3.6
+REST_0231,Restaurant 231,Abu Dhabi,Zone A,Indian,Premium,50,4.3
+REST_0232,Restaurant 232,Abu Dhabi,Zone B,Western,Casual Dining,48,3.6
+REST_0233,Restaurant 233,Sharjah,Zone D,Asian,QSR,47,3.9
+REST_0234,Restaurant 234,Ajman,Zone A,Indian,QSR,59,3.0
+REST_0235,Restaurant 235,Sharjah,Zone B,Indian,Casual Dining,46,4.4
+REST_0236,Restaurant 236,Ajman,Zone B,Western,QSR,28,4.8
+REST_0237,Restaurant 237,Sharjah,Zone D,Asian,Premium,52,5.0
+REST_0238,Restaurant 238,Dubai,Zone C,Healthy,QSR,14,4.7
+REST_0239,Restaurant 239,Ajman,Zone F,Asian,QSR,39,3.1
+REST_0240,Restaurant 240,Abu Dhabi,Zone D,Indian,Premium,34,4.3
+REST_0241,Restaurant 241,Ajman,Zone A,Western,Fine Dining,39,4.0
+REST_0242,Restaurant 242,Sharjah,Zone A,Indian,QSR,34,4.9
+REST_0243,Restaurant 243,Sharjah,Zone E,Asian,Casual Dining,18,4.8
+REST_0244,Restaurant 244,Ajman,Zone B,Asian,QSR,36,5.0
+REST_0245,Restaurant 245,Abu Dhabi,Zone F,Asian,Casual Dining,33,4.7
+REST_0246,Restaurant 246,Dubai,Zone A,Emirati,Premium,49,4.1
+REST_0247,Restaurant 247,Abu Dhabi,Zone C,Indian,QSR,52,4.4
+REST_0248,Restaurant 248,Ajman,Zone C,Healthy,QSR,47,4.9
+REST_0249,Restaurant 249,Sharjah,Zone D,Emirati,QSR,24,4.2
+REST_0250,Restaurant 250,Abu Dhabi,Zone A,Asian,QSR,47,4.7
+REST_0251,Restaurant 251,Sharjah,Zone F,Indian,QSR,35,4.9
+REST_0252,Restaurant 252,Sharjah,Zone F,Indian,Premium,39,4.1
+REST_0253,Restaurant 253,Abu Dhabi,Zone A,Asian,QSR,20,3.3
+REST_0254,Restaurant 254,Ajman,Zone E,Western,Casual Dining,38,3.3
+REST_0255,Restaurant 255,Abu Dhabi,Zone E,Indian,Premium,24,3.2
+REST_0256,Restaurant 256,Dubai,Zone E,Healthy,Casual Dining,53,4.0
+REST_0257,Restaurant 257,Sharjah,Zone A,Indian,Casual Dining,18,4.0
+REST_0258,Restaurant 258,Sharjah,Zone D,Indian,QSR,51,4.2
+REST_0259,Restaurant 259,Ajman,Zone F,Indian,Casual Dining,38,4.0
+REST_0260,Restaurant 260,Sharjah,Zone D,Indian,QSR,24,4.9
+REST_0261,Restaurant 261,Sharjah,Zone D,Emirati,Premium,26,3.6
+REST_0262,Restaurant 262,Sharjah,Zone D,Western,QSR,25,4.7
+REST_0263,Restaurant 263,Abu Dhabi,Zone C,Indian,Casual Dining,31,3.2
+REST_0264,Restaurant 264,Sharjah,Zone A,Emirati,Casual Dining,49,4.2
+REST_0265,Restaurant 265,Abu Dhabi,Zone B,Emirati,Casual Dining,58,4.3
+REST_0266,Restaurant 266,Ajman,Zone A,Emirati,QSR,52,4.5
+REST_0267,Restaurant 267,Dubai,Zone D,Emirati,QSR,20,4.0
+REST_0268,Restaurant 268,Sharjah,Zone C,Western,Premium,47,3.4
+REST_0269,Restaurant 269,Dubai,Zone C,Asian,QSR,34,3.7
+REST_0270,Restaurant 270,Abu Dhabi,Zone A,Asian,QSR,39,3.5
+REST_0271,Restaurant 271,Ajman,Zone B,Indian,Casual Dining,11,3.8
+REST_0272,Restaurant 272,Ajman,Zone D,Western,Premium,10,4.1
+REST_0273,Restaurant 273,Abu Dhabi,Zone C,Emirati,QSR,47,4.3
+REST_0274,Restaurant 274,Dubai,Zone D,Western,Casual Dining,46,4.7
+REST_0275,Restaurant 275,Sharjah,Zone D,Healthy,Casual Dining,18,4.8
+REST_0276,Restaurant 276,Abu Dhabi,Zone F,Asian,QSR,14,3.9
+REST_0277,Restaurant 277,Abu Dhabi,Zone D,Western,Casual Dining,59,3.2
+REST_0278,Restaurant 278,Abu Dhabi,Zone E,Western,Premium,33,4.6
+REST_0279,Restaurant 279,Abu Dhabi,Zone F,Western,Fine Dining,36,4.0
+REST_0280,Restaurant 280,Abu Dhabi,Zone D,Western,QSR,39,4.1
+REST_0281,Restaurant 281,Ajman,Zone D,Indian,Casual Dining,24,4.2
+REST_0282,Restaurant 282,Abu Dhabi,Zone B,Indian,Casual Dining,56,4.3
+REST_0283,Restaurant 283,Ajman,Zone F,Healthy,QSR,18,4.8
+REST_0284,Restaurant 284,Dubai,Zone F,Indian,Casual Dining,55,4.9
+REST_0285,Restaurant 285,Sharjah,Zone B,Asian,QSR,46,4.9
+REST_0286,Restaurant 286,Ajman,Zone E,Asian,QSR,39,4.6
+REST_0287,Restaurant 287,Sharjah,Zone F,Asian,QSR,58,4.8
+REST_0288,Restaurant 288,Sharjah,Zone E,Emirati,QSR,24,3.1
+REST_0289,Restaurant 289,Sharjah,Zone D,Western,Casual Dining,29,4.7
+REST_0290,Restaurant 290,Ajman,Zone C,Healthy,QSR,58,3.1
+REST_0291,Restaurant 291,Ajman,Zone C,Asian,Casual Dining,34,4.5
+REST_0292,Restaurant 292,Ajman,Zone A,Western,QSR,18,3.3
+REST_0293,Restaurant 293,Dubai,Zone C,Emirati,Casual Dining,54,3.7
+REST_0294,Restaurant 294,Ajman,Zone C,Healthy,Premium,31,3.4
+REST_0295,Restaurant 295,Dubai,Zone B,Healthy,QSR,22,3.9
+REST_0296,Restaurant 296,Ajman,Zone A,Western,Casual Dining,46,3.8
+REST_0297,Restaurant 297,Ajman,Zone A,Indian,Casual Dining,37,3.1
+REST_0298,Restaurant 298,Sharjah,Zone B,Indian,Casual Dining,23,4.7
+REST_0299,Restaurant 299,Abu Dhabi,Zone C,Emirati,QSR,39,4.7
+REST_0300,Restaurant 300,Sharjah,Zone C,Emirati,Casual Dining,48,4.6
+REST_0301,Restaurant 301,Ajman,Zone A,Western,QSR,14,4.7
+REST_0302,Restaurant 302,Abu Dhabi,Zone C,Indian,QSR,21,4.5
+REST_0303,Restaurant 303,Abu Dhabi,Zone A,Western,Casual Dining,44,4.9
+REST_0304,Restaurant 304,Dubai,Zone C,Asian,QSR,50,4.2
+REST_0305,Restaurant 305,Abu Dhabi,Zone D,Asian,Casual Dining,51,4.2
+REST_0306,Restaurant 306,Dubai,Zone B,Asian,Casual Dining,10,4.7
+REST_0307,Restaurant 307,Sharjah,Zone F,Healthy,Premium,55,3.7
+REST_0308,Restaurant 308,Dubai,Zone E,Indian,QSR,10,3.1
+REST_0309,Restaurant 309,Ajman,Zone D,Western,Fine Dining,51,4.5
+REST_0310,Restaurant 310,Abu Dhabi,Zone C,Asian,Casual Dining,52,3.5
+REST_0311,Restaurant 311,Ajman,Zone E,Western,QSR,29,3.9
+REST_0312,Restaurant 312,Abu Dhabi,Zone F,Western,QSR,43,3.5
+REST_0313,Restaurant 313,Abu Dhabi,Zone D,Healthy,Casual Dining,43,4.7
+REST_0314,Restaurant 314,Sharjah,Zone F,Indian,Premium,33,4.9
+REST_0315,Restaurant 315,Dubai,Zone B,Indian,Casual Dining,37,3.1
+REST_0316,Restaurant 316,Sharjah,Zone E,Emirati,Casual Dining,20,3.5
+REST_0317,Restaurant 317,Dubai,Zone F,Asian,QSR,17,3.4
+REST_0318,Restaurant 318,Sharjah,Zone E,Indian,QSR,44,4.3
+REST_0319,Restaurant 319,Sharjah,Zone B,Asian,QSR,50,3.9
+REST_0320,Restaurant 320,Abu Dhabi,Zone F,Western,Casual Dining,25,3.9
+REST_0321,Restaurant 321,Sharjah,Zone D,Indian,QSR,25,3.3
+REST_0322,Restaurant 322,Sharjah,Zone E,Indian,QSR,51,3.8
+REST_0323,Restaurant 323,Dubai,Zone F,Emirati,QSR,15,3.6
+REST_0324,Restaurant 324,Sharjah,Zone B,Asian,Premium,29,4.2
+REST_0325,Restaurant 325,Abu Dhabi,Zone F,Indian,Casual Dining,20,3.4
+REST_0326,Restaurant 326,Sharjah,Zone F,Indian,QSR,17,4.2
+REST_0327,Restaurant 327,Ajman,Zone D,Western,Premium,29,3.8
+REST_0328,Restaurant 328,Ajman,Zone C,Indian,QSR,41,3.7
+REST_0329,Restaurant 329,Dubai,Zone A,Emirati,QSR,42,3.6
+REST_0330,Restaurant 330,Dubai,Zone C,Western,QSR,15,4.3
+REST_0331,Restaurant 331,Ajman,Zone C,Asian,QSR,37,4.1
+REST_0332,Restaurant 332,Sharjah,Zone A,Healthy,QSR,17,4.7
+REST_0333,Restaurant 333,Sharjah,Zone F,Asian,Casual Dining,23,3.5
+REST_0334,Restaurant 334,Dubai,Zone C,Indian,Casual Dining,12,3.1
+REST_0335,Restaurant 335,Abu Dhabi,Zone C,Western,Casual Dining,11,3.4
+REST_0336,Restaurant 336,Sharjah,Zone B,Western,Casual Dining,31,3.7
+REST_0337,Restaurant 337,Ajman,Zone B,Asian,Premium,42,3.4
+REST_0338,Restaurant 338,Abu Dhabi,Zone D,Asian,QSR,52,3.2
+REST_0339,Restaurant 339,Abu Dhabi,Zone E,Asian,Casual Dining,30,3.9
+REST_0340,Restaurant 340,Sharjah,Zone F,Indian,Casual Dining,15,4.4
+REST_0341,Restaurant 341,Abu Dhabi,Zone D,Western,Premium,49,4.5
+REST_0342,Restaurant 342,Dubai,Zone B,Western,QSR,16,3.8
+REST_0343,Restaurant 343,Abu Dhabi,Zone B,Asian,QSR,15,4.0
+REST_0344,Restaurant 344,Dubai,Zone A,Asian,Casual Dining,59,4.5
+REST_0345,Restaurant 345,Sharjah,Zone A,Asian,Casual Dining,53,3.7
+REST_0346,Restaurant 346,Abu Dhabi,Zone B,Indian,QSR,17,4.6
+REST_0347,Restaurant 347,Ajman,Zone C,Indian,Casual Dining,33,4.9
+REST_0348,Restaurant 348,Ajman,Zone D,Indian,QSR,36,4.8
+REST_0349,Restaurant 349,Dubai,Zone B,Asian,Fine Dining,37,3.9
+REST_0350,Restaurant 350,Dubai,Zone F,Asian,QSR,14,4.2
+REST_0351,Restaurant 351,Sharjah,Zone B,Emirati,QSR,28,4.4
+REST_0352,Restaurant 352,Abu Dhabi,Zone A,Asian,QSR,18,3.7
+REST_0353,Restaurant 353,Dubai,Zone D,Healthy,Casual Dining,34,4.6
+REST_0354,Restaurant 354,Dubai,Zone D,Emirati,QSR,53,3.9
+REST_0355,Restaurant 355,Sharjah,Zone E,Healthy,Casual Dining,56,4.7
+REST_0356,Restaurant 356,Abu Dhabi,Zone B,Emirati,Premium,54,3.5
+REST_0357,Restaurant 357,Abu Dhabi,Zone E,Western,QSR,22,3.0
+REST_0358,Restaurant 358,Dubai,Zone A,Western,Casual Dining,46,4.3
+REST_0359,Restaurant 359,Abu Dhabi,Zone E,Indian,QSR,11,3.9
+REST_0360,Restaurant 360,Abu Dhabi,Zone C,Western,QSR,49,3.1
+REST_0361,Restaurant 361,Abu Dhabi,Zone B,Western,QSR,23,4.0
+REST_0362,Restaurant 362,Ajman,Zone B,Asian,QSR,40,3.3
+REST_0363,Restaurant 363,Abu Dhabi,Zone D,Western,Casual Dining,15,4.3
+REST_0364,Restaurant 364,Ajman,Zone E,Asian,QSR,34,3.9
+REST_0365,Restaurant 365,Abu Dhabi,Zone D,Asian,Premium,48,3.3
+REST_0366,Restaurant 366,Abu Dhabi,Zone F,Asian,Casual Dining,55,3.8
+REST_0367,Restaurant 367,Abu Dhabi,Zone E,Western,Casual Dining,40,3.5
+REST_0368,Restaurant 368,Dubai,Zone E,Emirati,Premium,47,4.3
+REST_0369,Restaurant 369,Dubai,Zone A,Emirati,Premium,25,3.6
+REST_0370,Restaurant 370,Ajman,Zone E,Emirati,Casual Dining,36,4.6
+REST_0371,Restaurant 371,Abu Dhabi,Zone D,Indian,Casual Dining,39,3.0
+REST_0372,Restaurant 372,Ajman,Zone F,Healthy,QSR,13,3.8
+REST_0373,Restaurant 373,Abu Dhabi,Zone E,Indian,Casual Dining,48,4.2
+REST_0374,Restaurant 374,Sharjah,Zone E,Emirati,Casual Dining,25,3.0
+REST_0375,Restaurant 375,Ajman,Zone B,Indian,Premium,45,3.4
+REST_0376,Restaurant 376,Dubai,Zone B,Asian,QSR,16,3.7
+REST_0377,Restaurant 377,Sharjah,Zone F,Western,QSR,30,3.0
+REST_0378,Restaurant 378,Dubai,Zone B,Western,QSR,11,4.1
+REST_0379,Restaurant 379,Sharjah,Zone C,Asian,Premium,17,4.3
+REST_0380,Restaurant 380,Sharjah,Zone B,Western,QSR,51,3.5
+REST_0381,Restaurant 381,Sharjah,Zone C,Asian,Casual Dining,36,4.1
+REST_0382,Restaurant 382,Ajman,Zone F,Indian,Casual Dining,11,5.0
+REST_0383,Restaurant 383,Ajman,Zone C,Western,QSR,15,4.8
+REST_0384,Restaurant 384,Dubai,Zone F,Indian,Casual Dining,13,3.1
+REST_0385,Restaurant 385,Ajman,Zone D,Western,Casual Dining,30,3.3
+REST_0386,Restaurant 386,Dubai,Zone B,Indian,QSR,10,4.0
+REST_0387,Restaurant 387,Abu Dhabi,Zone E,Asian,Casual Dining,47,3.5
+REST_0388,Restaurant 388,Dubai,Zone A,Asian,Fine Dining,21,3.2
+REST_0389,Restaurant 389,Dubai,Zone E,Asian,Fine Dining,36,3.5
+REST_0390,Restaurant 390,Ajman,Zone B,Asian,Casual Dining,23,3.1
+REST_0391,Restaurant 391,Dubai,Zone E,Western,Casual Dining,24,4.1
+REST_0392,Restaurant 392,Ajman,Zone B,Healthy,QSR,33,4.0
+REST_0393,Restaurant 393,Dubai,Zone B,Emirati,Fine Dining,27,3.0
+REST_0394,Restaurant 394,Abu Dhabi,Zone E,Western,QSR,26,4.0
+REST_0395,Restaurant 395,Ajman,Zone C,Asian,Casual Dining,18,4.0
+REST_0396,Restaurant 396,Ajman,Zone D,Asian,QSR,56,4.2
+REST_0397,Restaurant 397,Abu Dhabi,Zone D,Indian,QSR,27,4.9
+REST_0398,Restaurant 398,Ajman,Zone D,Asian,QSR,27,5.0
+REST_0399,Restaurant 399,Dubai,Zone D,Emirati,Casual Dining,14,4.1
+REST_0400,Restaurant 400,Sharjah,Zone A,Asian,Casual Dining,57,4.7
+REST_0401,Restaurant 401,Ajman,Zone F,Asian,Casual Dining,18,3.2
+REST_0402,Restaurant 402,Sharjah,Zone B,Indian,QSR,44,4.1
+REST_0403,Restaurant 403,Dubai,Zone A,Indian,Premium,53,4.4
+REST_0404,Restaurant 404,Abu Dhabi,Zone D,Indian,QSR,55,4.1
+REST_0405,Restaurant 405,Ajman,Zone D,Western,QSR,10,3.5
+REST_0406,Restaurant 406,Sharjah,Zone E,Asian,Casual Dining,50,3.1
+REST_0407,Restaurant 407,Abu Dhabi,Zone D,Western,Premium,18,3.8
+REST_0408,Restaurant 408,Abu Dhabi,Zone B,Asian,QSR,41,4.3
+REST_0409,Restaurant 409,Ajman,Zone D,Emirati,Casual Dining,29,5.0
+REST_0410,Restaurant 410,Sharjah,Zone D,Emirati,Casual Dining,22,3.5
+REST_0411,Restaurant 411,Ajman,Zone A,Emirati,Premium,49,4.8
+REST_0412,Restaurant 412,Dubai,Zone B,Asian,QSR,20,3.1
+REST_0413,Restaurant 413,Abu Dhabi,Zone C,Asian,Casual Dining,55,4.9
+REST_0414,Restaurant 414,Sharjah,Zone E,Healthy,QSR,57,4.7
+REST_0415,Restaurant 415,Ajman,Zone C,Indian,QSR,52,3.0
+REST_0416,Restaurant 416,Abu Dhabi,Zone F,Indian,QSR,51,3.6
+REST_0417,Restaurant 417,Ajman,Zone A,Asian,Fine Dining,35,3.1
+REST_0418,Restaurant 418,Sharjah,Zone D,Western,QSR,49,5.0
+REST_0419,Restaurant 419,Dubai,Zone E,Indian,Premium,20,3.9
+REST_0420,Restaurant 420,Dubai,Zone F,Western,QSR,34,4.3
+REST_0421,Restaurant 421,Dubai,Zone F,Western,Premium,49,3.5
+REST_0422,Restaurant 422,Ajman,Zone B,Asian,Casual Dining,34,4.9
+REST_0423,Restaurant 423,Abu Dhabi,Zone E,Asian,QSR,29,3.5
+REST_0424,Restaurant 424,Dubai,Zone F,Asian,Casual Dining,51,3.5
+REST_0425,Restaurant 425,Dubai,Zone A,Indian,QSR,58,3.6
+REST_0426,Restaurant 426,Dubai,Zone D,Indian,QSR,20,3.9
+REST_0427,Restaurant 427,Dubai,Zone A,Indian,Casual Dining,53,3.0
+REST_0428,Restaurant 428,Sharjah,Zone F,Western,Casual Dining,19,4.2
+REST_0429,Restaurant 429,Sharjah,Zone B,Western,Casual Dining,58,3.1
+REST_0430,Restaurant 430,Abu Dhabi,Zone C,Asian,Premium,12,4.1
+REST_0431,Restaurant 431,Sharjah,Zone D,Western,QSR,48,3.9
+REST_0432,Restaurant 432,Sharjah,Zone D,Western,Premium,36,3.5
+REST_0433,Restaurant 433,Sharjah,Zone A,Asian,Premium,44,3.7
+REST_0434,Restaurant 434,Ajman,Zone A,Indian,QSR,58,4.4
+REST_0435,Restaurant 435,Sharjah,Zone A,Emirati,QSR,49,3.0
+REST_0436,Restaurant 436,Ajman,Zone F,Western,Casual Dining,40,3.6
+REST_0437,Restaurant 437,Ajman,Zone D,Western,Casual Dining,30,4.4
+REST_0438,Restaurant 438,Sharjah,Zone A,Asian,QSR,31,3.3
+REST_0439,Restaurant 439,Ajman,Zone E,Emirati,QSR,28,4.1
+REST_0440,Restaurant 440,Dubai,Zone F,Western,Casual Dining,23,3.3
+REST_0441,Restaurant 441,Abu Dhabi,Zone F,Indian,Casual Dining,46,3.3
+REST_0442,Restaurant 442,Sharjah,Zone E,Emirati,QSR,54,4.5
+REST_0443,Restaurant 443,Sharjah,Zone E,Asian,Premium,59,3.5
+REST_0444,Restaurant 444,Abu Dhabi,Zone F,Indian,Casual Dining,32,3.8
+REST_0445,Restaurant 445,Sharjah,Zone D,Indian,QSR,35,4.5
+REST_0446,Restaurant 446,Sharjah,Zone A,Western,Casual Dining,52,3.4
+REST_0447,Restaurant 447,Abu Dhabi,Zone B,Western,QSR,53,4.1
+REST_0448,Restaurant 448,Ajman,Zone A,Western,Casual Dining,49,4.8
+REST_0449,Restaurant 449,Dubai,Zone D,Healthy,QSR,21,4.1
+REST_0450,Restaurant 450,Ajman,Zone E,Asian,QSR,10,3.1
+REST_0451,Restaurant 451,Dubai,Zone D,Western,QSR,59,4.2
+REST_0452,Restaurant 452,Abu Dhabi,Zone A,Western,QSR,43,3.2
+REST_0453,Restaurant 453,Ajman,Zone D,Healthy,Casual Dining,53,3.6
+REST_0454,Restaurant 454,Ajman,Zone B,Asian,Casual Dining,28,4.7
+REST_0455,Restaurant 455,Dubai,Zone D,Healthy,QSR,32,3.0
+REST_0456,Restaurant 456,Dubai,Zone C,Indian,QSR,16,3.2
+REST_0457,Restaurant 457,Dubai,Zone D,Emirati,Premium,16,3.7
+REST_0458,Restaurant 458,Dubai,Zone A,Western,QSR,10,5.0
+REST_0459,Restaurant 459,Sharjah,Zone C,Emirati,QSR,27,3.6
+REST_0460,Restaurant 460,Abu Dhabi,Zone E,Indian,Casual Dining,17,3.3
+REST_0461,Restaurant 461,Dubai,Zone A,Indian,Premium,34,4.1
+REST_0462,Restaurant 462,Ajman,Zone F,Indian,Premium,51,4.0
+REST_0463,Restaurant 463,Ajman,Zone B,Western,Casual Dining,38,3.9
+REST_0464,Restaurant 464,Ajman,Zone D,Western,QSR,32,4.9
+REST_0465,Restaurant 465,Dubai,Zone D,Healthy,Casual Dining,38,3.6
+REST_0466,Restaurant 466,Abu Dhabi,Zone A,Asian,QSR,10,3.6
+REST_0467,Restaurant 467,Sharjah,Zone D,Indian,QSR,24,3.3
+REST_0468,Restaurant 468,Dubai,Zone D,Indian,Casual Dining,24,4.4
+REST_0469,Restaurant 469,Dubai,Zone E,Indian,Casual Dining,37,3.6
+REST_0470,Restaurant 470,Sharjah,Zone D,Emirati,QSR,45,4.6
+REST_0471,Restaurant 471,Abu Dhabi,Zone D,Emirati,QSR,51,4.9
+REST_0472,Restaurant 472,Dubai,Zone E,Healthy,Premium,49,3.1
+REST_0473,Restaurant 473,Ajman,Zone F,Asian,Premium,41,5.0
+REST_0474,Restaurant 474,Ajman,Zone D,Indian,Casual Dining,55,3.5
+REST_0475,Restaurant 475,Dubai,Zone F,Indian,Casual Dining,22,3.8
+REST_0476,Restaurant 476,Abu Dhabi,Zone E,Western,Premium,30,4.6
+REST_0477,Restaurant 477,Ajman,Zone B,Healthy,Casual Dining,58,4.3
+REST_0478,Restaurant 478,Ajman,Zone D,Indian,Casual Dining,48,4.6
+REST_0479,Restaurant 479,Sharjah,Zone A,Indian,QSR,47,3.9
+REST_0480,Restaurant 480,Abu Dhabi,Zone C,Western,QSR,18,4.8
+REST_0481,Restaurant 481,Dubai,Zone B,Western,Casual Dining,29,4.6
+REST_0482,Restaurant 482,Sharjah,Zone D,Indian,QSR,29,3.6
+REST_0483,Restaurant 483,Sharjah,Zone A,Emirati,QSR,17,4.9
+REST_0484,Restaurant 484,Sharjah,Zone C,Indian,Casual Dining,23,4.9
+REST_0485,Restaurant 485,Abu Dhabi,Zone E,Healthy,QSR,29,3.8
+REST_0486,Restaurant 486,Abu Dhabi,Zone D,Indian,Premium,44,4.3
+REST_0487,Restaurant 487,Abu Dhabi,Zone F,Indian,QSR,54,4.6
+REST_0488,Restaurant 488,Dubai,Zone F,Asian,Casual Dining,30,4.6
+REST_0489,Restaurant 489,Abu Dhabi,Zone E,Indian,Casual Dining,50,3.0
+REST_0490,Restaurant 490,Sharjah,Zone B,Asian,Casual Dining,50,4.3
+REST_0491,Restaurant 491,Ajman,Zone F,Western,QSR,31,4.9
+REST_0492,Restaurant 492,Dubai,Zone C,Asian,Casual Dining,52,3.5
+REST_0493,Restaurant 493,Dubai,Zone F,Western,Premium,15,4.6
+REST_0494,Restaurant 494,Dubai,Zone C,Asian,Fine Dining,53,4.1
+REST_0495,Restaurant 495,Sharjah,Zone F,Indian,Casual Dining,36,3.4
+REST_0496,Restaurant 496,Abu Dhabi,Zone E,Healthy,Premium,13,3.1
+REST_0497,Restaurant 497,Sharjah,Zone E,Emirati,QSR,13,4.5
+REST_0498,Restaurant 498,Ajman,Zone F,Indian,Premium,37,3.6
+REST_0499,Restaurant 499,Abu Dhabi,Zone B,Asian,Fine Dining,36,3.8
+REST_0500,Restaurant 500,Ajman,Zone A,Western,Casual Dining,26,4.0

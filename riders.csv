@@ -1,0 +1,301 @@
+rider_id,rider_name,city,zone,vehicle_type,rider_status,join_date
+RIDER_0001,Rider 1,Abu Dhabi,Zone F,Car,Active,2025-11-29 12:26:15.445209
+RIDER_0002,Rider 2,Dubai,Zone E,Motorcycle,Inactive,2025-08-09 14:06:05.445209
+RIDER_0003,Rider 3,Ajman,Zone D,Bike,Inactive,2025-08-15 13:22:30.445209
+RIDER_0004,Rider 4,Abu Dhabi,Zone E,Motorcycle,Active,2024-04-07 09:09:12.445209
+RIDER_0005,Rider 5,Abu Dhabi,Zone E,Motorcycle,Active,2024-09-17 13:18:07.445209
+RIDER_0006,Rider 6,Dubai,Zone F,Car,On Leave,2025-08-21 23:26:41.445209
+RIDER_0007,Rider 7,Ajman,Zone E,Bike,On Leave,2025-03-07 21:31:30.445209
+RIDER_0008,Rider 8,Ajman,Zone D,Motorcycle,Active,2024-02-18 13:04:01.445209
+RIDER_0009,Rider 9,Dubai,Zone B,Bike,Active,2024-07-18 08:25:57.445209
+RIDER_0010,Rider 10,Abu Dhabi,Zone A,Motorcycle,Active,2025-01-21 23:08:58.445209
+RIDER_0011,Rider 11,Sharjah,Zone E,Bike,Active,2025-08-04 11:31:36.445209
+RIDER_0012,Rider 12,Dubai,Zone F,Motorcycle,Inactive,2024-05-14 23:23:30.445209
+RIDER_0013,Rider 13,Sharjah,Zone C,Motorcycle,Active,2024-05-25 23:26:46.445209
+RIDER_0014,Rider 14,Abu Dhabi,Zone E,Car,Active,2025-05-21 11:32:50.445209
+RIDER_0015,Rider 15,Abu Dhabi,Zone D,Car,Active,2025-12-24 17:34:06.445209
+RIDER_0016,Rider 16,Ajman,Zone E,Bike,Active,2024-10-07 09:35:40.445209
+RIDER_0017,Rider 17,Abu Dhabi,Zone C,Bike,Active,2024-07-14 01:07:52.445209
+RIDER_0018,Rider 18,Ajman,Zone B,Bike,Active,2025-05-01 13:29:14.445209
+RIDER_0019,Rider 19,Ajman,Zone D,Bike,Active,2024-08-26 02:34:49.445209
+RIDER_0020,Rider 20,Abu Dhabi,Zone D,Car,Active,2024-06-30 00:55:15.445209
+RIDER_0021,Rider 21,Ajman,Zone F,Bike,Active,2024-07-26 03:11:35.445209
+RIDER_0022,Rider 22,Abu Dhabi,Zone D,Motorcycle,On Leave,2025-11-26 02:41:23.445209
+RIDER_0023,Rider 23,Ajman,Zone C,Motorcycle,Active,2024-01-30 05:41:11.445209
+RIDER_0024,Rider 24,Ajman,Zone D,Motorcycle,Active,2024-01-15 05:01:08.445209
+RIDER_0025,Rider 25,Abu Dhabi,Zone B,Car,Active,2025-01-14 14:13:58.445209
+RIDER_0026,Rider 26,Sharjah,Zone A,Bike,Active,2025-10-06 04:27:43.445209
+RIDER_0027,Rider 27,Dubai,Zone A,Motorcycle,Active,2025-12-11 20:10:38.445209
+RIDER_0028,Rider 28,Abu Dhabi,Zone E,Motorcycle,Active,2025-09-02 12:08:51.445209
+RIDER_0029,Rider 29,Ajman,Zone A,Car,On Leave,2025-11-11 00:27:07.445209
+RIDER_0030,Rider 30,Dubai,Zone C,Car,Active,2024-01-10 01:56:07.445209
+RIDER_0031,Rider 31,Sharjah,Zone A,Car,Active,2024-08-19 06:53:23.445209
+RIDER_0032,Rider 32,Abu Dhabi,Zone C,Motorcycle,Active,2025-05-29 00:14:19.445209
+RIDER_0033,Rider 33,Ajman,Zone C,Car,Active,2024-03-22 17:40:06.445209
+RIDER_0034,Rider 34,Ajman,Zone E,Motorcycle,Active,2024-09-23 19:59:59.445209
+RIDER_0035,Rider 35,Abu Dhabi,Zone A,Bike,On Leave,2024-05-11 21:42:28.445209
+RIDER_0036,Rider 36,Ajman,Zone E,Motorcycle,Active,2025-01-26 00:10:31.445209
+RIDER_0037,Rider 37,Dubai,Zone D,Bike,Active,2025-01-07 16:40:28.445209
+RIDER_0038,Rider 38,Ajman,Zone B,Motorcycle,Active,2025-04-07 20:34:26.445209
+RIDER_0039,Rider 39,Dubai,Zone A,Bike,Active,2024-10-11 06:28:22.445209
+RIDER_0040,Rider 40,Dubai,Zone D,Motorcycle,Inactive,2025-06-10 14:48:53.445209
+RIDER_0041,Rider 41,Abu Dhabi,Zone F,Motorcycle,Active,2025-10-30 01:13:28.445209
+RIDER_0042,Rider 42,Ajman,Zone D,Motorcycle,Active,2024-07-23 04:09:54.445209
+RIDER_0043,Rider 43,Dubai,Zone E,Motorcycle,Inactive,2025-05-05 10:43:40.445209
+RIDER_0044,Rider 44,Ajman,Zone E,Car,Active,2025-09-23 21:09:55.445209
+RIDER_0045,Rider 45,Dubai,Zone B,Motorcycle,Active,2025-05-16 22:27:16.445209
+RIDER_0046,Rider 46,Sharjah,Zone B,Motorcycle,Inactive,2025-12-06 02:58:07.445209
+RIDER_0047,Rider 47,Abu Dhabi,Zone B,Car,Active,2025-09-08 19:02:32.445209
+RIDER_0048,Rider 48,Abu Dhabi,Zone B,Car,Active,2025-06-12 13:46:54.445209
+RIDER_0049,Rider 49,Abu Dhabi,Zone E,Car,Active,2024-05-01 03:09:11.445209
+RIDER_0050,Rider 50,Dubai,Zone C,Car,Active,2024-02-20 09:41:04.445209
+RIDER_0051,Rider 51,Sharjah,Zone E,Car,Active,2025-04-27 13:24:50.445209
+RIDER_0052,Rider 52,Dubai,Zone C,Car,Active,2025-07-25 08:17:24.445209
+RIDER_0053,Rider 53,Abu Dhabi,Zone E,Car,Active,2025-12-22 18:12:25.445209
+RIDER_0054,Rider 54,Dubai,Zone F,Car,Active,2025-08-08 20:02:51.445209
+RIDER_0055,Rider 55,Abu Dhabi,Zone E,Car,Active,2025-09-13 14:15:11.445209
+RIDER_0056,Rider 56,Ajman,Zone B,Car,Active,2025-03-14 04:18:35.445209
+RIDER_0057,Rider 57,Dubai,Zone C,Car,Active,2025-06-10 00:33:47.445209
+RIDER_0058,Rider 58,Ajman,Zone D,Bike,Active,2024-11-29 10:22:30.445209
+RIDER_0059,Rider 59,Dubai,Zone F,Motorcycle,Active,2024-08-12 14:17:32.445209
+RIDER_0060,Rider 60,Abu Dhabi,Zone D,Motorcycle,Active,2024-06-06 18:35:17.445209
+RIDER_0061,Rider 61,Ajman,Zone F,Car,Active,2024-01-08 06:55:25.445209
+RIDER_0062,Rider 62,Dubai,Zone D,Car,Inactive,2024-05-20 04:38:12.445209
+RIDER_0063,Rider 63,Abu Dhabi,Zone B,Bike,Inactive,2024-11-05 22:09:22.445209
+RIDER_0064,Rider 64,Dubai,Zone D,Car,Active,2024-04-19 19:17:06.445209
+RIDER_0065,Rider 65,Ajman,Zone E,Bike,Active,2025-12-12 18:10:57.445209
+RIDER_0066,Rider 66,Dubai,Zone B,Motorcycle,Active,2025-05-15 20:18:42.445209
+RIDER_0067,Rider 67,Dubai,Zone D,Motorcycle,Active,2024-09-22 06:25:36.445209
+RIDER_0068,Rider 68,Ajman,Zone B,Car,Inactive,2025-02-09 17:16:43.445209
+RIDER_0069,Rider 69,Abu Dhabi,Zone E,Bike,Active,2025-06-24 20:11:35.445209
+RIDER_0070,Rider 70,Dubai,Zone B,Bike,Active,2025-06-21 06:35:20.445209
+RIDER_0071,Rider 71,Dubai,Zone D,Motorcycle,Active,2024-09-07 21:36:07.445209
+RIDER_0072,Rider 72,Sharjah,Zone B,Motorcycle,Active,2025-06-12 09:41:09.445209
+RIDER_0073,Rider 73,Sharjah,Zone F,Bike,Active,2024-10-23 02:22:27.445209
+RIDER_0074,Rider 74,Abu Dhabi,Zone A,Bike,Active,2024-11-07 09:12:58.445209
+RIDER_0075,Rider 75,Ajman,Zone D,Motorcycle,Active,2024-08-04 03:04:13.445209
+RIDER_0076,Rider 76,Abu Dhabi,Zone E,Bike,Active,2025-07-11 21:53:05.445209
+RIDER_0077,Rider 77,Abu Dhabi,Zone C,Motorcycle,Active,2025-06-30 21:49:19.445209
+RIDER_0078,Rider 78,Abu Dhabi,Zone B,Bike,Active,2024-10-28 20:42:44.445209
+RIDER_0079,Rider 79,Dubai,Zone F,Car,Active,2025-06-26 01:26:37.445209
+RIDER_0080,Rider 80,Dubai,Zone B,Motorcycle,Active,2024-08-12 20:23:27.445209
+RIDER_0081,Rider 81,Abu Dhabi,Zone D,Bike,Active,2025-11-05 10:31:29.445209
+RIDER_0082,Rider 82,Abu Dhabi,Zone F,Motorcycle,Active,2025-05-24 04:23:11.445209
+RIDER_0083,Rider 83,Sharjah,Zone D,Bike,Active,2024-08-18 03:33:16.445209
+RIDER_0084,Rider 84,Ajman,Zone A,Car,On Leave,2024-03-09 13:18:14.445209
+RIDER_0085,Rider 85,Abu Dhabi,Zone E,Car,Active,2025-03-17 02:12:41.445209
+RIDER_0086,Rider 86,Sharjah,Zone F,Car,Active,2025-06-01 16:55:58.445209
+RIDER_0087,Rider 87,Abu Dhabi,Zone F,Motorcycle,Active,2024-05-20 05:16:32.445209
+RIDER_0088,Rider 88,Ajman,Zone B,Car,Active,2025-08-04 04:53:45.445209
+RIDER_0089,Rider 89,Abu Dhabi,Zone B,Motorcycle,Active,2024-08-28 08:04:34.445209
+RIDER_0090,Rider 90,Ajman,Zone C,Car,Active,2024-04-22 07:18:28.445209
+RIDER_0091,Rider 91,Dubai,Zone F,Motorcycle,Active,2024-06-27 10:04:53.445209
+RIDER_0092,Rider 92,Ajman,Zone B,Car,On Leave,2024-01-31 10:35:46.445209
+RIDER_0093,Rider 93,Abu Dhabi,Zone B,Bike,Active,2025-10-10 14:06:56.445209
+RIDER_0094,Rider 94,Sharjah,Zone A,Bike,On Leave,2025-01-20 18:07:44.445209
+RIDER_0095,Rider 95,Dubai,Zone C,Motorcycle,Inactive,2024-11-13 03:27:37.445209
+RIDER_0096,Rider 96,Sharjah,Zone B,Car,Inactive,2024-09-23 04:29:46.445209
+RIDER_0097,Rider 97,Abu Dhabi,Zone B,Car,On Leave,2024-06-19 17:35:20.445209
+RIDER_0098,Rider 98,Dubai,Zone E,Bike,Active,2024-12-08 13:09:50.445209
+RIDER_0099,Rider 99,Sharjah,Zone F,Car,Active,2024-12-25 08:50:21.445209
+RIDER_0100,Rider 100,Abu Dhabi,Zone B,Car,Active,2024-03-02 12:18:40.445209
+RIDER_0101,Rider 101,Sharjah,Zone A,Motorcycle,Active,2024-11-10 11:08:32.445209
+RIDER_0102,Rider 102,Ajman,Zone B,Bike,On Leave,2024-01-10 16:18:45.445209
+RIDER_0103,Rider 103,Ajman,Zone F,Car,Active,2024-07-18 04:20:39.445209
+RIDER_0104,Rider 104,Abu Dhabi,Zone B,Car,Active,2024-06-25 16:15:22.445209
+RIDER_0105,Rider 105,Sharjah,Zone D,Motorcycle,Active,2025-05-12 11:18:03.445209
+RIDER_0106,Rider 106,Abu Dhabi,Zone B,Motorcycle,Active,2025-01-17 09:34:23.445209
+RIDER_0107,Rider 107,Sharjah,Zone C,Motorcycle,Inactive,2024-05-12 12:26:56.445209
+RIDER_0108,Rider 108,Dubai,Zone F,Motorcycle,Active,2024-01-14 18:53:57.445209
+RIDER_0109,Rider 109,Abu Dhabi,Zone F,Car,Active,2024-04-13 22:56:57.445209
+RIDER_0110,Rider 110,Abu Dhabi,Zone D,Car,Active,2024-02-17 06:50:26.445209
+RIDER_0111,Rider 111,Sharjah,Zone C,Car,On Leave,2025-08-16 12:12:05.445209
+RIDER_0112,Rider 112,Abu Dhabi,Zone C,Motorcycle,Active,2025-01-27 06:00:03.445209
+RIDER_0113,Rider 113,Dubai,Zone F,Car,Inactive,2024-03-19 16:35:41.445209
+RIDER_0114,Rider 114,Sharjah,Zone A,Bike,Active,2024-11-18 17:53:21.445209
+RIDER_0115,Rider 115,Sharjah,Zone B,Bike,Active,2025-10-29 07:37:55.445209
+RIDER_0116,Rider 116,Sharjah,Zone C,Car,Active,2025-09-20 10:56:03.445209
+RIDER_0117,Rider 117,Dubai,Zone B,Motorcycle,Active,2025-08-16 01:46:50.445209
+RIDER_0118,Rider 118,Dubai,Zone B,Bike,Active,2024-08-11 05:06:07.445209
+RIDER_0119,Rider 119,Abu Dhabi,Zone A,Car,Active,2024-02-10 01:18:11.445209
+RIDER_0120,Rider 120,Sharjah,Zone A,Bike,Active,2024-02-25 02:00:43.445209
+RIDER_0121,Rider 121,Dubai,Zone C,Bike,Active,2025-06-21 18:09:30.445209
+RIDER_0122,Rider 122,Ajman,Zone C,Bike,Inactive,2025-03-13 02:15:03.445209
+RIDER_0123,Rider 123,Abu Dhabi,Zone F,Bike,Active,2024-04-11 12:38:30.445209
+RIDER_0124,Rider 124,Dubai,Zone D,Car,Active,2025-05-15 06:50:02.445209
+RIDER_0125,Rider 125,Dubai,Zone B,Bike,Active,2024-10-24 11:18:06.445209
+RIDER_0126,Rider 126,Dubai,Zone F,Car,On Leave,2025-01-13 03:59:03.445209
+RIDER_0127,Rider 127,Abu Dhabi,Zone B,Bike,Inactive,2024-03-16 00:00:00.445209
+RIDER_0128,Rider 128,Dubai,Zone A,Bike,Inactive,2024-02-21 01:59:06.445209
+RIDER_0129,Rider 129,Dubai,Zone A,Bike,Active,2025-10-01 20:04:14.445209
+RIDER_0130,Rider 130,Ajman,Zone F,Car,Inactive,2025-05-02 01:35:09.445209
+RIDER_0131,Rider 131,Ajman,Zone C,Bike,Active,2025-12-14 23:51:04.445209
+RIDER_0132,Rider 132,Ajman,Zone D,Bike,On Leave,2025-12-20 02:53:13.445209
+RIDER_0133,Rider 133,Dubai,Zone D,Motorcycle,Active,2025-01-01 02:19:43.445209
+RIDER_0134,Rider 134,Ajman,Zone A,Bike,On Leave,2025-06-14 17:07:07.445209
+RIDER_0135,Rider 135,Sharjah,Zone A,Motorcycle,Active,2024-07-02 04:03:44.445209
+RIDER_0136,Rider 136,Ajman,Zone D,Car,Active,2025-10-06 01:07:55.445209
+RIDER_0137,Rider 137,Ajman,Zone D,Bike,Active,2025-11-28 04:21:21.445209
+RIDER_0138,Rider 138,Dubai,Zone C,Bike,Active,2024-11-05 23:39:58.445209
+RIDER_0139,Rider 139,Sharjah,Zone D,Motorcycle,Active,2025-10-28 05:58:53.445209
+RIDER_0140,Rider 140,Ajman,Zone B,Motorcycle,Active,2025-05-18 08:59:29.445209
+RIDER_0141,Rider 141,Dubai,Zone D,Bike,Active,2024-07-14 17:23:08.445209
+RIDER_0142,Rider 142,Sharjah,Zone E,Car,Active,2024-05-15 05:55:03.445209
+RIDER_0143,Rider 143,Ajman,Zone D,Motorcycle,Active,2024-01-12 06:54:51.445209
+RIDER_0144,Rider 144,Dubai,Zone A,Bike,Active,2025-08-18 01:36:11.445209
+RIDER_0145,Rider 145,Sharjah,Zone A,Motorcycle,On Leave,2025-09-10 00:27:10.445209
+RIDER_0146,Rider 146,Ajman,Zone E,Car,Active,2024-01-24 14:55:11.445209
+RIDER_0147,Rider 147,Sharjah,Zone B,Motorcycle,Active,2024-10-12 09:20:52.445209
+RIDER_0148,Rider 148,Sharjah,Zone D,Bike,Active,2025-06-17 11:18:45.445209
+RIDER_0149,Rider 149,Dubai,Zone D,Motorcycle,Active,2025-10-21 06:26:52.445209
+RIDER_0150,Rider 150,Abu Dhabi,Zone E,Car,Active,2025-02-10 02:11:08.445209
+RIDER_0151,Rider 151,Sharjah,Zone C,Bike,Active,2025-03-26 21:12:25.445209
+RIDER_0152,Rider 152,Sharjah,Zone C,Bike,Active,2024-05-20 14:12:41.445209
+RIDER_0153,Rider 153,Sharjah,Zone B,Bike,Active,2024-08-20 01:40:09.445209
+RIDER_0154,Rider 154,Sharjah,Zone D,Bike,Active,2024-12-05 01:14:49.445209
+RIDER_0155,Rider 155,Sharjah,Zone D,Car,On Leave,2025-07-14 01:45:36.445209
+RIDER_0156,Rider 156,Abu Dhabi,Zone D,Bike,Active,2024-03-25 17:42:53.445209
+RIDER_0157,Rider 157,Dubai,Zone A,Car,Active,2025-02-24 14:31:30.445209
+RIDER_0158,Rider 158,Abu Dhabi,Zone F,Car,On Leave,2024-05-14 03:16:28.445209
+RIDER_0159,Rider 159,Dubai,Zone C,Motorcycle,Active,2024-12-17 06:35:43.445209
+RIDER_0160,Rider 160,Abu Dhabi,Zone F,Motorcycle,Active,2025-10-27 04:28:58.445209
+RIDER_0161,Rider 161,Dubai,Zone E,Bike,Active,2024-03-30 00:49:06.445209
+RIDER_0162,Rider 162,Ajman,Zone F,Bike,Active,2025-05-29 02:39:52.445209
+RIDER_0163,Rider 163,Sharjah,Zone A,Car,Active,2024-02-28 16:26:31.445209
+RIDER_0164,Rider 164,Dubai,Zone A,Motorcycle,On Leave,2024-05-22 05:36:55.445209
+RIDER_0165,Rider 165,Dubai,Zone C,Bike,Active,2025-06-16 04:20:18.445209
+RIDER_0166,Rider 166,Sharjah,Zone D,Bike,Active,2025-07-01 23:20:16.445209
+RIDER_0167,Rider 167,Ajman,Zone B,Car,On Leave,2025-01-13 04:28:11.445209
+RIDER_0168,Rider 168,Sharjah,Zone F,Motorcycle,On Leave,2025-05-05 00:17:40.445209
+RIDER_0169,Rider 169,Dubai,Zone E,Bike,Active,2024-08-02 17:31:49.445209
+RIDER_0170,Rider 170,Dubai,Zone C,Bike,Inactive,2024-12-20 01:18:56.445209
+RIDER_0171,Rider 171,Sharjah,Zone B,Bike,Active,2025-10-04 14:23:30.445209
+RIDER_0172,Rider 172,Abu Dhabi,Zone C,Bike,Active,2025-12-18 11:44:25.445209
+RIDER_0173,Rider 173,Sharjah,Zone C,Bike,Active,2024-02-28 06:50:28.445209
+RIDER_0174,Rider 174,Dubai,Zone C,Bike,Active,2024-09-17 19:11:15.445209
+RIDER_0175,Rider 175,Dubai,Zone C,Motorcycle,Active,2025-01-01 21:46:19.445209
+RIDER_0176,Rider 176,Dubai,Zone D,Car,Active,2025-05-29 02:13:30.445209
+RIDER_0177,Rider 177,Ajman,Zone A,Car,Active,2024-05-17 23:39:57.445209
+RIDER_0178,Rider 178,Sharjah,Zone F,Car,Active,2024-06-15 19:53:32.445209
+RIDER_0179,Rider 179,Ajman,Zone C,Bike,Active,2025-11-04 09:12:07.445209
+RIDER_0180,Rider 180,Sharjah,Zone B,Car,On Leave,2025-12-27 20:03:50.445209
+RIDER_0181,Rider 181,Ajman,Zone F,Motorcycle,Active,2024-01-13 04:40:35.445209
+RIDER_0182,Rider 182,Abu Dhabi,Zone B,Bike,Active,2024-01-13 16:05:47.445209
+RIDER_0183,Rider 183,Dubai,Zone B,Motorcycle,On Leave,2025-10-09 05:08:24.445209
+RIDER_0184,Rider 184,Dubai,Zone A,Bike,Active,2025-04-23 07:25:52.445209
+RIDER_0185,Rider 185,Sharjah,Zone A,Bike,Active,2024-01-27 23:10:44.445209
+RIDER_0186,Rider 186,Dubai,Zone B,Car,Active,2025-12-20 09:01:52.445209
+RIDER_0187,Rider 187,Ajman,Zone D,Motorcycle,Active,2025-03-27 03:32:05.445209
+RIDER_0188,Rider 188,Abu Dhabi,Zone A,Car,Active,2025-06-23 10:31:46.445209
+RIDER_0189,Rider 189,Ajman,Zone A,Bike,On Leave,2024-09-14 14:00:52.445209
+RIDER_0190,Rider 190,Ajman,Zone D,Motorcycle,Active,2024-12-28 08:00:44.445209
+RIDER_0191,Rider 191,Sharjah,Zone C,Motorcycle,Active,2025-05-23 00:35:55.445209
+RIDER_0192,Rider 192,Dubai,Zone A,Bike,Active,2025-07-22 21:16:29.445209
+RIDER_0193,Rider 193,Ajman,Zone F,Car,Active,2025-06-17 10:18:30.445209
+RIDER_0194,Rider 194,Sharjah,Zone B,Bike,Active,2024-12-07 04:43:02.445209
+RIDER_0195,Rider 195,Ajman,Zone B,Motorcycle,Active,2024-10-18 06:41:25.445209
+RIDER_0196,Rider 196,Ajman,Zone D,Motorcycle,Active,2024-05-23 14:44:09.445209
+RIDER_0197,Rider 197,Ajman,Zone B,Motorcycle,Inactive,2024-03-18 16:03:17.445209
+RIDER_0198,Rider 198,Sharjah,Zone E,Bike,Active,2025-09-02 05:39:45.445209
+RIDER_0199,Rider 199,Abu Dhabi,Zone B,Motorcycle,On Leave,2025-10-17 15:02:07.445209
+RIDER_0200,Rider 200,Ajman,Zone D,Motorcycle,Active,2025-01-07 21:26:04.445209
+RIDER_0201,Rider 201,Ajman,Zone D,Car,Active,2025-12-27 17:14:37.445209
+RIDER_0202,Rider 202,Sharjah,Zone D,Car,Active,2025-02-28 11:29:08.445209
+RIDER_0203,Rider 203,Dubai,Zone F,Motorcycle,Active,2025-05-07 06:18:45.445209
+RIDER_0204,Rider 204,Abu Dhabi,Zone E,Car,Inactive,2025-02-20 22:50:42.445209
+RIDER_0205,Rider 205,Sharjah,Zone A,Bike,Active,2024-06-19 04:16:52.445209
+RIDER_0206,Rider 206,Dubai,Zone C,Car,On Leave,2025-11-21 04:39:44.445209
+RIDER_0207,Rider 207,Sharjah,Zone B,Car,Active,2024-07-15 15:45:04.445209
+RIDER_0208,Rider 208,Sharjah,Zone F,Car,On Leave,2024-08-01 04:17:27.445209
+RIDER_0209,Rider 209,Abu Dhabi,Zone A,Car,On Leave,2024-03-26 09:17:17.445209
+RIDER_0210,Rider 210,Abu Dhabi,Zone D,Bike,Active,2024-01-29 18:37:05.445209
+RIDER_0211,Rider 211,Abu Dhabi,Zone A,Car,Active,2024-06-20 15:40:58.445209
+RIDER_0212,Rider 212,Abu Dhabi,Zone A,Motorcycle,Inactive,2024-04-20 11:44:24.445209
+RIDER_0213,Rider 213,Dubai,Zone E,Car,Active,2025-03-27 00:42:05.445209
+RIDER_0214,Rider 214,Ajman,Zone D,Car,Inactive,2024-04-14 21:02:33.445209
+RIDER_0215,Rider 215,Sharjah,Zone F,Motorcycle,Active,2024-12-07 03:42:11.445209
+RIDER_0216,Rider 216,Abu Dhabi,Zone F,Bike,Active,2024-08-01 06:10:11.445209
+RIDER_0217,Rider 217,Ajman,Zone D,Motorcycle,Active,2025-07-20 07:45:41.445209
+RIDER_0218,Rider 218,Dubai,Zone B,Motorcycle,Active,2025-04-29 07:33:33.445209
+RIDER_0219,Rider 219,Abu Dhabi,Zone F,Motorcycle,Active,2024-08-17 03:47:23.445209
+RIDER_0220,Rider 220,Sharjah,Zone F,Motorcycle,Inactive,2025-03-03 07:43:25.445209
+RIDER_0221,Rider 221,Ajman,Zone B,Car,Active,2025-11-04 13:43:01.445209
+RIDER_0222,Rider 222,Abu Dhabi,Zone B,Car,Active,2024-03-26 19:47:08.445209
+RIDER_0223,Rider 223,Sharjah,Zone F,Car,On Leave,2024-12-06 00:42:21.445209
+RIDER_0224,Rider 224,Ajman,Zone F,Car,Active,2025-11-15 20:12:30.445209
+RIDER_0225,Rider 225,Sharjah,Zone F,Bike,On Leave,2025-04-06 14:54:35.445209
+RIDER_0226,Rider 226,Dubai,Zone B,Car,Active,2024-11-08 17:52:50.445209
+RIDER_0227,Rider 227,Abu Dhabi,Zone F,Car,Active,2024-01-22 18:06:41.445209
+RIDER_0228,Rider 228,Abu Dhabi,Zone A,Bike,Active,2025-08-24 07:09:05.445209
+RIDER_0229,Rider 229,Sharjah,Zone A,Motorcycle,Active,2025-06-15 11:11:50.445209
+RIDER_0230,Rider 230,Ajman,Zone B,Car,Active,2024-12-14 02:12:11.445209
+RIDER_0231,Rider 231,Abu Dhabi,Zone B,Car,Active,2024-03-09 00:22:14.445209
+RIDER_0232,Rider 232,Sharjah,Zone B,Motorcycle,On Leave,2024-04-20 23:14:23.445209
+RIDER_0233,Rider 233,Dubai,Zone C,Car,Active,2024-11-23 06:58:10.445209
+RIDER_0234,Rider 234,Abu Dhabi,Zone B,Motorcycle,On Leave,2025-12-30 19:52:59.445209
+RIDER_0235,Rider 235,Sharjah,Zone C,Motorcycle,Active,2025-11-20 13:41:24.445209
+RIDER_0236,Rider 236,Ajman,Zone B,Motorcycle,On Leave,2025-08-28 22:42:07.445209
+RIDER_0237,Rider 237,Abu Dhabi,Zone D,Car,Active,2025-07-07 01:03:14.445209
+RIDER_0238,Rider 238,Abu Dhabi,Zone E,Motorcycle,Active,2025-04-04 19:29:14.445209
+RIDER_0239,Rider 239,Dubai,Zone F,Car,Active,2024-06-04 22:57:43.445209
+RIDER_0240,Rider 240,Sharjah,Zone F,Bike,On Leave,2025-07-17 13:00:27.445209
+RIDER_0241,Rider 241,Ajman,Zone A,Motorcycle,Active,2024-05-08 16:38:19.445209
+RIDER_0242,Rider 242,Dubai,Zone D,Car,Active,2025-12-19 20:10:23.445209
+RIDER_0243,Rider 243,Dubai,Zone E,Motorcycle,Active,2025-10-30 07:55:21.445209
+RIDER_0244,Rider 244,Dubai,Zone F,Car,Active,2024-11-15 03:47:01.445209
+RIDER_0245,Rider 245,Sharjah,Zone F,Car,Inactive,2024-10-02 08:37:43.445209
+RIDER_0246,Rider 246,Sharjah,Zone C,Bike,Active,2025-08-09 12:37:25.445209
+RIDER_0247,Rider 247,Abu Dhabi,Zone A,Motorcycle,Active,2025-05-05 23:52:56.445209
+RIDER_0248,Rider 248,Sharjah,Zone C,Car,Active,2025-02-09 13:02:37.445209
+RIDER_0249,Rider 249,Dubai,Zone C,Bike,On Leave,2025-07-16 14:57:41.445209
+RIDER_0250,Rider 250,Sharjah,Zone A,Car,On Leave,2024-11-05 04:14:42.445209
+RIDER_0251,Rider 251,Ajman,Zone E,Car,Active,2025-01-01 09:16:11.445209
+RIDER_0252,Rider 252,Abu Dhabi,Zone A,Bike,Active,2024-05-25 15:44:36.445209
+RIDER_0253,Rider 253,Dubai,Zone B,Motorcycle,Active,2024-07-01 06:09:58.445209
+RIDER_0254,Rider 254,Abu Dhabi,Zone C,Bike,Active,2025-02-24 11:08:38.445209
+RIDER_0255,Rider 255,Sharjah,Zone B,Motorcycle,Active,2024-09-05 21:09:37.445209
+RIDER_0256,Rider 256,Abu Dhabi,Zone A,Car,Active,2025-09-18 06:13:19.445209
+RIDER_0257,Rider 257,Abu Dhabi,Zone A,Car,Active,2024-06-24 19:42:52.445209
+RIDER_0258,Rider 258,Sharjah,Zone F,Bike,Active,2025-02-14 22:26:42.445209
+RIDER_0259,Rider 259,Abu Dhabi,Zone E,Bike,Active,2024-05-17 15:44:52.445209
+RIDER_0260,Rider 260,Sharjah,Zone C,Bike,Active,2025-04-28 12:08:14.445209
+RIDER_0261,Rider 261,Dubai,Zone D,Car,Active,2024-10-01 07:36:06.445209
+RIDER_0262,Rider 262,Abu Dhabi,Zone A,Motorcycle,Active,2024-12-03 11:33:47.445209
+RIDER_0263,Rider 263,Ajman,Zone F,Bike,Active,2024-11-09 08:28:38.445209
+RIDER_0264,Rider 264,Ajman,Zone D,Motorcycle,Active,2025-03-20 18:30:29.445209
+RIDER_0265,Rider 265,Dubai,Zone C,Bike,Inactive,2024-03-12 21:29:55.445209
+RIDER_0266,Rider 266,Sharjah,Zone B,Bike,Active,2024-08-03 07:36:33.445209
+RIDER_0267,Rider 267,Sharjah,Zone C,Bike,Inactive,2024-02-01 19:52:25.445209
+RIDER_0268,Rider 268,Abu Dhabi,Zone E,Bike,Active,2024-01-31 06:54:02.445209
+RIDER_0269,Rider 269,Abu Dhabi,Zone D,Car,Active,2025-07-17 12:18:02.445209
+RIDER_0270,Rider 270,Ajman,Zone F,Car,Active,2024-08-04 10:59:10.445209
+RIDER_0271,Rider 271,Ajman,Zone D,Bike,Active,2024-04-23 02:28:57.445209
+RIDER_0272,Rider 272,Sharjah,Zone B,Car,Active,2025-10-05 06:55:21.445209
+RIDER_0273,Rider 273,Ajman,Zone F,Car,Active,2025-12-24 18:58:49.445209
+RIDER_0274,Rider 274,Sharjah,Zone B,Car,On Leave,2025-09-23 14:11:30.445209
+RIDER_0275,Rider 275,Dubai,Zone A,Car,Active,2024-09-24 14:54:40.445209
+RIDER_0276,Rider 276,Dubai,Zone C,Motorcycle,Active,2024-02-01 23:47:32.445209
+RIDER_0277,Rider 277,Ajman,Zone E,Motorcycle,Active,2024-09-19 23:22:52.445209
+RIDER_0278,Rider 278,Abu Dhabi,Zone A,Car,Active,2025-07-05 07:00:02.445209
+RIDER_0279,Rider 279,Ajman,Zone C,Motorcycle,Active,2025-08-06 09:42:08.445209
+RIDER_0280,Rider 280,Ajman,Zone B,Bike,Active,2025-05-30 06:43:10.445209
+RIDER_0281,Rider 281,Ajman,Zone E,Motorcycle,Active,2025-10-15 20:15:52.445209
+RIDER_0282,Rider 282,Abu Dhabi,Zone B,Bike,Active,2025-02-26 00:19:13.445209
+RIDER_0283,Rider 283,Ajman,Zone F,Motorcycle,Active,2025-02-09 10:43:19.445209
+RIDER_0284,Rider 284,Abu Dhabi,Zone B,Motorcycle,Active,2025-12-30 14:04:01.445209
+RIDER_0285,Rider 285,Ajman,Zone D,Bike,Active,2024-04-18 14:56:56.445209
+RIDER_0286,Rider 286,Abu Dhabi,Zone C,Bike,Active,2025-07-01 05:27:22.445209
+RIDER_0287,Rider 287,Abu Dhabi,Zone A,Car,Active,2024-10-19 23:30:41.445209
+RIDER_0288,Rider 288,Abu Dhabi,Zone D,Motorcycle,Active,2025-09-26 23:39:29.445209
+RIDER_0289,Rider 289,Abu Dhabi,Zone F,Bike,Inactive,2024-10-01 10:06:52.445209
+RIDER_0290,Rider 290,Abu Dhabi,Zone C,Car,On Leave,2024-03-24 14:49:07.445209
+RIDER_0291,Rider 291,Dubai,Zone F,Bike,Active,2024-04-28 16:33:20.445209
+RIDER_0292,Rider 292,Sharjah,Zone C,Car,Active,2025-04-10 21:51:31.445209
+RIDER_0293,Rider 293,Sharjah,Zone C,Car,Active,2025-06-21 04:52:03.445209
+RIDER_0294,Rider 294,Abu Dhabi,Zone E,Bike,Active,2025-06-24 21:32:39.445209
+RIDER_0295,Rider 295,Sharjah,Zone D,Bike,Active,2024-07-20 08:14:44.445209
+RIDER_0296,Rider 296,Abu Dhabi,Zone A,Motorcycle,Inactive,2025-10-17 23:40:40.445209
+RIDER_0297,Rider 297,Ajman,Zone D,Motorcycle,Active,2024-09-20 02:31:56.445209
+RIDER_0298,Rider 298,Dubai,Zone F,Car,Active,2024-05-20 20:25:21.445209
+RIDER_0299,Rider 299,Ajman,Zone B,Bike,Active,2025-12-23 22:54:28.445209
+RIDER_0300,Rider 300,Ajman,Zone F,Motorcycle,Inactive,2024-02-02 21:01:00.445209
