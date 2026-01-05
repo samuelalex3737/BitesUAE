@@ -12,12 +12,12 @@ st.set_page_config(page_title="BitesUAE Dashboard", layout="wide")
 # ------------------------------
 @st.cache_data
 def load_data():
-    customers = pd.read_csv("data/customers.csv")
-    restaurants = pd.read_csv("data/restaurants.csv")
-    orders = pd.read_csv("data/orders.csv")
-    order_items = pd.read_csv("data/order_items.csv")
-    delivery_events = pd.read_csv("data/delivery_events.csv")
-    riders = pd.read_csv("data/riders.csv")
+    customers = pd.read_csv("customers.csv")
+    restaurants = pd.read_csv("restaurants.csv")
+    orders = pd.read_csv("orders.csv")
+    order_items = pd.read_csv("order_items.csv")
+    delivery_events = pd.read_csv("delivery_events.csv")
+    riders = pd.read_csv("riders.csv")
     return customers, restaurants, orders, order_items, delivery_events, riders
 
 customers, restaurants, orders, order_items, delivery_events, riders = load_data()
@@ -94,3 +94,4 @@ if view_toggle == "Manager View":
     
     st.write(f"Projected improvement in on-time rate: +{prep_reduction * 0.5:.1f}%")  # dummy calc
     st.write(f"Projected GMV recovery from reduced cancellations: AED {gmv * cancellation_reduction/100:,.0f}")
+
